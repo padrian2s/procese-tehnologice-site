@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "mv src/middleware.ts src/middleware.ts.bak 2>/dev/null || true && NEXT_OUTPUT=export next build && node scripts/post-build.js && mv src/middleware.ts.bak src/middleware.ts 2>/dev/null || true",
     "start": "next start",
     "lint": "eslint"
   },

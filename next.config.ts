@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
-const isGitHubPages = process.env.NEXT_OUTPUT === 'export';
+const isStaticExport = process.env.NEXT_OUTPUT === 'export';
+const isGitHubPages = process.env.GITHUB_PAGES === 'true';
 
 const nextConfig: NextConfig = {
-  output: isGitHubPages ? 'export' : 'standalone',
+  output: isStaticExport ? 'export' : 'standalone',
   basePath: isGitHubPages ? '/procese-tehnologice-site' : '',
   assetPrefix: isGitHubPages ? '/procese-tehnologice-site/' : '',
   images: {
