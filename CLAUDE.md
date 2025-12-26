@@ -9,7 +9,7 @@ Multilingual business website for TechFlow Solutions offering technological proc
 - **Styling**: Tailwind CSS
 - **Icons**: Google Material Icons
 - **Images**: Unsplash (configured in next.config.ts)
-- **Deployment**: Docker (standalone output)
+- **Deployment**: DigitalOcean App Platform (static), GitHub Pages, Docker
 
 ## Languages
 - Romanian (ro) - default
@@ -80,7 +80,31 @@ src/
 - Phone: +40 721 910 503
 - Location: București, România
 
-## Docker
+## Deployment
+
+### DigitalOcean App Platform (Static Site)
+- **App ID**: `a0cadcbc-a192-4dd7-ace0-4740642e7a0e`
+- **Live URL**: https://squid-app-8edup.ondigitalocean.app
+- **Build command**: `npm run build:static`
+- **Output directory**: `out`
+- **Region**: Frankfurt (fra)
+
+```bash
+# Update app spec
+doctl apps update a0cadcbc-a192-4dd7-ace0-4740642e7a0e --spec app-spec.yaml
+
+# Trigger new deployment
+doctl apps create-deployment a0cadcbc-a192-4dd7-ace0-4740642e7a0e
+
+# View build logs
+doctl apps logs a0cadcbc-a192-4dd7-ace0-4740642e7a0e --type build
+```
+
+### GitHub Pages
+- Auto-deploys on push to `main` via `.github/workflows/deploy.yml`
+- Uses `NEXT_OUTPUT=export GITHUB_PAGES=true` for basePath config
+
+### Docker
 ```bash
 # Build
 docker build -t procese-tehnologice .
@@ -104,3 +128,15 @@ Repository: https://github.com/padrian2s/procese-tehnologice-site
 - Dictionary pattern for i18n (no external library)
 - Static generation with `generateStaticParams`
 - Extensible registry pattern for industries and values
+
+## Static Export Configuration
+The `next.config.ts` uses environment variables to control build output:
+- `NEXT_OUTPUT=export` - enables static HTML export (generates `out/` folder)
+- `GITHUB_PAGES=true` - adds basePath for GitHub Pages subdirectory
+- `trailingSlash: true` - generates `folder/index.html` structure (required for DigitalOcean)
+
+Build scripts:
+- `npm run build` - standard Next.js build (standalone server)
+- `npm run build:static` - static export with redirect index.html
+
+Note: Middleware (`src/middleware.ts`) is disabled during static export as it requires a Node.js server.
