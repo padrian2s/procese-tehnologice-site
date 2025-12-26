@@ -5,6 +5,7 @@ const isGitHubPages = process.env.GITHUB_PAGES === 'true';
 
 const nextConfig: NextConfig = {
   output: isStaticExport ? 'export' : 'standalone',
+  trailingSlash: isStaticExport,
   basePath: isGitHubPages ? '/procese-tehnologice-site' : '',
   assetPrefix: isGitHubPages ? '/procese-tehnologice-site/' : '',
   images: {
