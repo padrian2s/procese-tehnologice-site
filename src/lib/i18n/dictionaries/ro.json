@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "title": "TechFlow Solutions - Procese Tehnologice Digitale",
+    "description": "Soluții software complete pentru digitalizarea și trasabilitatea proceselor tehnologice în diverse industrii"
+  },
+  "nav": {
+    "home": "Acasă",
+    "industries": "Industrii",
+    "about": "Despre Noi",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Digitalizăm Procesele Tehnologice",
+    "subtitle": "Soluții software complete pentru trasabilitate, conformitate și eficiență operațională",
+    "cta": "Descoperă Soluțiile",
+    "secondary_cta": "Contactează-ne"
+  },
+  "industries": {
+    "title": "Industriile Noastre",
+    "subtitle": "Soluții personalizate pentru fiecare sector",
+    "view_all": "Vezi Toate Industriile",
+    "learn_more": "Află Mai Multe",
+    "features": "Caracteristici Principale",
+    "modules": "Module Incluse",
+    "benefits": "Beneficii",
+    "back_to_industries": "Înapoi la Industrii"
+  },
+  "about": {
+    "title": "Despre TechFlow Solutions",
+    "subtitle": "Parteneri de încredere în transformarea digitală",
+    "mission_title": "Misiunea Noastră",
+    "mission": "Ajutăm afacerile să își digitalizeze procesele tehnologice, oferind trasabilitate completă, conformitate cu standardele și eficiență operațională maximă.",
+    "vision_title": "Viziunea Noastră",
+    "vision": "Să devenim liderul în soluții de trasabilitate și management al proceselor tehnologice în Europa Centrală și de Est.",
+    "values_title": "Valorile Noastre",
+    "values": {
+      "innovation": {
+        "title": "Inovație",
+        "description": "Adoptăm cele mai noi tehnologii pentru a oferi soluții de vârf",
+        "long_description": "Inovația este motorul care ne propulsează înainte. Nu ne mulțumim cu soluții standard - căutăm constant modalități noi și mai bune de a rezolva problemele clienților noștri.",
+        "points": [
+          "Cercetare continuă a tehnologiilor emergente",
+          "Implementare rapidă a soluțiilor moderne",
+          "Cultură organizațională orientată spre experimentare",
+          "Parteneriate cu lideri din industria tech"
+        ],
+        "approach": "Abordarea noastră combină cele mai recente tehnologii cu metodologii agile, permițându-ne să livrăm soluții inovatoare într-un timp record."
+      },
+      "reliability": {
+        "title": "Fiabilitate",
+        "description": "Construim sisteme robuste pe care vă puteți baza",
+        "long_description": "Fiabilitatea nu este opțională în procesele tehnologice critice. Construim sisteme care funcționează 24/7, cu redundanță și mecanisme de recuperare automată.",
+        "points": [
+          "Arhitectură redundantă și tolerantă la erori",
+          "Monitorizare proactivă și alertare în timp real",
+          "Backup automat și recuperare rapidă",
+          "SLA-uri clare cu garanții de uptime 99.9%"
+        ],
+        "approach": "Fiecare sistem pe care îl construim trece prin teste riguroase de stres și scenarii de failover înainte de lansare."
+      },
+      "partnership": {
+        "title": "Parteneriat",
+        "description": "Lucrăm alături de clienții noștri pentru succesul lor",
+        "long_description": "Nu suntem doar furnizori de software - suntem parteneri în transformarea digitală. Succesul clienților noștri este succesul nostru.",
+        "points": [
+          "Înțelegere profundă a nevoilor de business",
+          "Comunicare transparentă și regulată",
+          "Flexibilitate în adaptarea la cerințe noi",
+          "Suport dedicat pe termen lung"
+        ],
+        "approach": "Construim relații bazate pe încredere și colaborare, oferind consultanță proactivă pentru optimizarea continuă a proceselor."
+      },
+      "quality": {
+        "title": "Calitate",
+        "description": "Nu facem compromisuri în privința calității",
+        "long_description": "Calitatea este înrădăcinată în tot ceea ce facem - de la prima linie de cod până la suportul post-implementare.",
+        "points": [
+          "Code review obligatoriu pentru fiecare modificare",
+          "Testare automată cu acoperire extinsă",
+          "Standarde de documentare riguroase",
+          "Audituri regulate de securitate și performanță"
+        ],
+        "approach": "Aplicăm cele mai bune practici din industrie și ne îmbunătățim constant procesele pentru a livra excelență."
+      }
+    },
+    "learn_more": "Află Mai Multe"
+  },
+  "contact": {
+    "title": "Contactează-ne",
+    "subtitle": "Suntem aici să te ajutăm",
+    "form": {
+      "name": "Nume",
+      "email": "Email",
+      "company": "Companie",
+      "industry": "Industrie",
+      "message": "Mesaj",
+      "submit": "Trimite Mesajul",
+      "success": "Mesaj trimis cu succes!",
+      "error": "Eroare la trimitere. Încercați din nou."
+    },
+    "info": {
+      "title": "Informații Contact",
+      "email": "avr.nrf@gmail.com",
+      "phone": "+40 721 910 503",
+      "address": "București, România"
+    }
+  },
+  "footer": {
+    "description": "Soluții software pentru digitalizarea proceselor tehnologice",
+    "quick_links": "Link-uri Rapide",
+    "legal": "Legal",
+    "privacy": "Politica de Confidențialitate",
+    "terms": "Termeni și Condiții",
+    "copyright": "© 2024 TechFlow Solutions. Toate drepturile rezervate."
+  },
+  "cta": {
+    "get_started": "Începe Acum",
+    "request_demo": "Solicită Demo",
+    "contact_sales": "Contactează Vânzări"
+  },
+  "apicultura": {
+    "name": "Apicultură",
+    "short_description": "Sistem complet de management și trasabilitate pentru afaceri apicole - de la stup la borcan",
+    "long_description": "O soluție IT end-to-end pentru industria apicolă care acoperă întregul lanț de producție: colectarea datelor din teren, trasabilitate completă pe loturi, control calitate, conformitate cu standardele și integrare e-commerce. Fie că aveți o stupină mică sau o operațiune mare cu mii de stupi, sistemul nostru se adaptează nevoilor dumneavoastră.",
+    "features": {
+      "field_data": {
+        "title": "Achiziție Date din Teren",
+        "description": "Aplicație mobilă offline-first pentru înregistrarea inspecțiilor, tratamentelor, hrănirilor și incidentelor. Suport pentru senzori IoT (cântare, temperatură, umiditate)."
+      },
+      "traceability": {
+        "title": "Trasabilitate Completă",
+        "description": "Urmărire de la stup la borcan: lot recoltare → extracție → maturare → ambalare. Etichetare cu QR pentru verificare publică."
+      },
+      "quality": {
+        "title": "Control Calitate & Conformitate",
+        "description": "Plan QC cu analize (umiditate, HMF, diastază), registru tratamente, blocări automate pentru neconformități."
+      },
+      "planning": {
+        "title": "Planificare Producție",
+        "description": "Calendar operațional bazat pe date IoT și meteo, alocare resurse, tracking costuri pe operațiune."
+      },
+      "inventory": {
+        "title": "Gestiune Stocuri",
+        "description": "Stoc real-time pentru consumabile și produse finite, FIFO/FEFO automat, alerte expirare."
+      },
+      "sales": {
+        "title": "Vânzări B2C & B2B",
+        "description": "Integrare e-commerce (Shopify/WooCommerce), flux comandă complet, CRM pentru clienți recurenți."
+      }
+    },
+    "modules": [
+      "Aplicație mobilă pentru apicultor",
+      "Portal web de administrare",
+      "Modul IoT pentru senzori",
+      "Sistem de lotizare și trasabilitate",
+      "Control calitate și conformitate",
+      "Planificare și calendar",
+      "Gestiune stocuri și depozit",
+      "Integrare e-commerce",
+      "Rapoarte și analytics",
+      "Export documente (PDF, Excel)"
+    ],
+    "benefits": [
+      "Reducerea pierderilor prin monitorizare în timp real",
+      "Conformitate 100% pentru export și inspecții",
+      "Trasabilitate completă pentru fiecare borcan vândut",
+      "Decizii bazate pe date concrete",
+      "Automatizarea proceselor repetitive",
+      "Creșterea încrederii clienților prin transparență"
+    ]
+  },
+  "food_traceability": {
+    "name": "Trasabilitate Alimentară",
+    "short_description": "Sistem event-sourcing pentru trasabilitatea completă în lanțul alimentar - de la fermă la consumator",
+    "long_description": "O platformă robustă pentru trasabilitatea alimentară bazată pe event-sourcing, care permite urmărirea forward și backward a loturilor prin întregul lanț de aprovizionare. Susține conformitatea HACCP, managementul recall-urilor și auditurile. Potrivită pentru producători, procesatori, logistică și retail.",
+    "features": {
+      "event_sourcing": {
+        "title": "Arhitectură Event-Sourcing",
+        "description": "Fiecare operațiune este înregistrată ca eveniment imutabil: recepție, transformare, split/merge, ambalare, expediere. Istoric complet și auditabil."
+      },
+      "bidirectional_trace": {
+        "title": "Trasabilitate Bidirecțională",
+        "description": "Backward trace: 'De unde vine lotul X?'. Forward trace: 'Unde a ajuns lotul X?'. Impact analysis în câteva secunde."
+      },
+      "multi_actor": {
+        "title": "Suport Multi-Actor",
+        "description": "Producători, procesatori, logistică, retail - toți în aceeași platformă, cu roluri și permisiuni distincte."
+      },
+      "compliance": {
+        "title": "Conformitate & Audit",
+        "description": "Jurnal complet 'who did what, when', documente atașate, export rapoarte HACCP/ISO."
+      },
+      "recall": {
+        "title": "Management Recall",
+        "description": "Definire incident, generare automată listă afectați, comunicări și tracking confirmare în timp real."
+      },
+      "integration": {
+        "title": "Integrări ERP/WMS",
+        "description": "API REST/GraphQL, Webhooks, import EDI. Compatibil cu sisteme existente."
+      }
+    },
+    "modules": [
+      "Event Ledger (nucleul)",
+      "Inventory Engine (stoc pe lot)",
+      "Trace Graph Engine",
+      "Master Data Management",
+      "Compliance & Audit",
+      "Recall Management",
+      "Aplicație mobilă pentru scanare",
+      "Dashboard Analytics",
+      "Integrare etichete GS1/QR",
+      "API pentru integrări externe"
+    ],
+    "benefits": [
+      "Recall în minute, nu zile",
+      "Conformitate HACCP și ISO dovedită",
+      "Reducerea riscului de reputație",
+      "Vizibilitate completă în lanțul de aprovizionare",
+      "Reducerea pierderilor și a produselor expirate",
+      "Încredere sporită din partea partenerilor și consumatorilor"
+    ]
+  }
+}

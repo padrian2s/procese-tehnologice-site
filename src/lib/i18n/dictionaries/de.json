@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "title": "TechFlow Solutions - Digitale Technologische Prozesse",
+    "description": "Komplette Softwarelösungen für die Digitalisierung und Rückverfolgbarkeit technologischer Prozesse in verschiedenen Branchen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "industries": "Branchen",
+    "about": "Über Uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Technologische Prozesse Digitalisieren",
+    "subtitle": "Komplette Softwarelösungen für Rückverfolgbarkeit, Compliance und betriebliche Effizienz",
+    "cta": "Lösungen Entdecken",
+    "secondary_cta": "Kontaktieren Sie Uns"
+  },
+  "industries": {
+    "title": "Unsere Branchen",
+    "subtitle": "Maßgeschneiderte Lösungen für jeden Sektor",
+    "view_all": "Alle Branchen Anzeigen",
+    "learn_more": "Mehr Erfahren",
+    "features": "Hauptmerkmale",
+    "modules": "Enthaltene Module",
+    "benefits": "Vorteile",
+    "back_to_industries": "Zurück zu Branchen"
+  },
+  "about": {
+    "title": "Über TechFlow Solutions",
+    "subtitle": "Vertrauenswürdige Partner für digitale Transformation",
+    "mission_title": "Unsere Mission",
+    "mission": "Wir helfen Unternehmen, ihre technologischen Prozesse zu digitalisieren und bieten vollständige Rückverfolgbarkeit, Standardkonformität und maximale betriebliche Effizienz.",
+    "vision_title": "Unsere Vision",
+    "vision": "Führend in Rückverfolgbarkeitslösungen und technologischem Prozessmanagement in Mittel- und Osteuropa zu werden.",
+    "values_title": "Unsere Werte",
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Wir setzen modernste Technologien ein, um erstklassige Lösungen zu liefern",
+        "long_description": "Innovation ist der Motor, der uns vorantreibt. Wir geben uns nicht mit Standardlösungen zufrieden - wir suchen ständig nach neuen und besseren Wegen, die Probleme unserer Kunden zu lösen.",
+        "points": [
+          "Kontinuierliche Erforschung neuer Technologien",
+          "Schnelle Implementierung moderner Lösungen",
+          "Experimentierfreudige Unternehmenskultur",
+          "Partnerschaften mit Tech-Branchenführern"
+        ],
+        "approach": "Unser Ansatz kombiniert neueste Technologien mit agilen Methoden und ermöglicht es uns, innovative Lösungen in Rekordzeit zu liefern."
+      },
+      "reliability": {
+        "title": "Zuverlässigkeit",
+        "description": "Wir bauen robuste Systeme, auf die Sie sich verlassen können",
+        "long_description": "Zuverlässigkeit ist bei kritischen technologischen Prozessen nicht optional. Wir bauen Systeme, die 24/7 funktionieren, mit Redundanz und automatischen Wiederherstellungsmechanismen.",
+        "points": [
+          "Redundante und fehlertolerante Architektur",
+          "Proaktive Überwachung und Echtzeit-Warnungen",
+          "Automatisches Backup und schnelle Wiederherstellung",
+          "Klare SLAs mit 99,9% Verfügbarkeitsgarantie"
+        ],
+        "approach": "Jedes System, das wir bauen, durchläuft vor dem Start strenge Stresstests und Failover-Szenarien."
+      },
+      "partnership": {
+        "title": "Partnerschaft",
+        "description": "Wir arbeiten mit unseren Kunden für deren Erfolg zusammen",
+        "long_description": "Wir sind nicht nur Softwareanbieter - wir sind Partner bei der digitalen Transformation. Der Erfolg unserer Kunden ist unser Erfolg.",
+        "points": [
+          "Tiefes Verständnis der Geschäftsanforderungen",
+          "Transparente und regelmäßige Kommunikation",
+          "Flexibilität bei der Anpassung an neue Anforderungen",
+          "Engagierter langfristiger Support"
+        ],
+        "approach": "Wir bauen Beziehungen auf Vertrauen und Zusammenarbeit auf und bieten proaktive Beratung zur kontinuierlichen Prozessoptimierung."
+      },
+      "quality": {
+        "title": "Qualität",
+        "description": "Wir machen keine Kompromisse bei der Qualität",
+        "long_description": "Qualität ist in allem verankert, was wir tun - von der ersten Codezeile bis zum Support nach der Implementierung.",
+        "points": [
+          "Obligatorisches Code-Review für jede Änderung",
+          "Automatisierte Tests mit umfassender Abdeckung",
+          "Strenge Dokumentationsstandards",
+          "Regelmäßige Sicherheits- und Leistungsaudits"
+        ],
+        "approach": "Wir wenden bewährte Branchenpraktiken an und verbessern unsere Prozesse ständig, um Exzellenz zu liefern."
+      }
+    },
+    "learn_more": "Mehr Erfahren"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Wir sind hier, um zu helfen",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "company": "Unternehmen",
+      "industry": "Branche",
+      "message": "Nachricht",
+      "submit": "Nachricht Senden",
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Fehler beim Senden. Bitte versuchen Sie es erneut."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "email": "avr.nrf@gmail.com",
+      "phone": "+40 721 910 503",
+      "address": "Bukarest, Rumänien"
+    }
+  },
+  "footer": {
+    "description": "Softwarelösungen für die Digitalisierung technologischer Prozesse",
+    "quick_links": "Schnelllinks",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "copyright": "© 2024 TechFlow Solutions. Alle Rechte vorbehalten."
+  },
+  "cta": {
+    "get_started": "Jetzt Starten",
+    "request_demo": "Demo Anfordern",
+    "contact_sales": "Vertrieb Kontaktieren"
+  },
+  "apicultura": {
+    "name": "Imkerei",
+    "short_description": "Komplettes Management- und Rückverfolgbarkeitssystem für Imkereibetriebe - vom Bienenstock zum Glas",
+    "long_description": "Eine End-to-End IT-Lösung für die Imkereiindustrie, die die gesamte Produktionskette abdeckt: Felddatenerfassung, vollständige Chargenrückverfolgbarkeit, Qualitätskontrolle, Standardkonformität und E-Commerce-Integration. Ob Sie eine kleine Imkerei oder einen großen Betrieb mit Tausenden von Bienenstöcken haben, unser System passt sich Ihren Bedürfnissen an.",
+    "features": {
+      "field_data": {
+        "title": "Felddatenerfassung",
+        "description": "Offline-first Mobile-App zur Erfassung von Inspektionen, Behandlungen, Fütterungen und Vorfällen. Unterstützung für IoT-Sensoren (Waagen, Temperatur, Feuchtigkeit)."
+      },
+      "traceability": {
+        "title": "Vollständige Rückverfolgbarkeit",
+        "description": "Verfolgung vom Bienenstock zum Glas: Erntecharge → Extraktion → Reifung → Verpackung. QR-Etikettierung zur öffentlichen Verifizierung."
+      },
+      "quality": {
+        "title": "Qualitätskontrolle & Compliance",
+        "description": "QK-Plan mit Analysen (Feuchtigkeit, HMF, Diastase), Behandlungsregister, automatische Sperren bei Nichtkonformität."
+      },
+      "planning": {
+        "title": "Produktionsplanung",
+        "description": "Betriebskalender basierend auf IoT-Daten und Wetter, Ressourcenzuweisung, Kostenverfolgung pro Vorgang."
+      },
+      "inventory": {
+        "title": "Bestandsverwaltung",
+        "description": "Echtzeit-Bestand für Verbrauchsmaterialien und Fertigprodukte, automatisches FIFO/FEFO, Ablaufwarnungen."
+      },
+      "sales": {
+        "title": "B2C & B2B Verkauf",
+        "description": "E-Commerce-Integration (Shopify/WooCommerce), vollständiger Bestellablauf, CRM für wiederkehrende Kunden."
+      }
+    },
+    "modules": [
+      "Mobile App für Imker",
+      "Web-Administrationsportal",
+      "IoT-Modul für Sensoren",
+      "Chargen- und Rückverfolgbarkeitssystem",
+      "Qualitätskontrolle und Compliance",
+      "Planung und Kalender",
+      "Lager- und Bestandsverwaltung",
+      "E-Commerce-Integration",
+      "Berichte und Analysen",
+      "Dokumentenexport (PDF, Excel)"
+    ],
+    "benefits": [
+      "Reduzierte Verluste durch Echtzeitüberwachung",
+      "100% Compliance für Export und Inspektionen",
+      "Vollständige Rückverfolgbarkeit für jedes verkaufte Glas",
+      "Datengesteuerte Entscheidungen",
+      "Automatisierung repetitiver Prozesse",
+      "Erhöhtes Kundenvertrauen durch Transparenz"
+    ]
+  },
+  "food_traceability": {
+    "name": "Lebensmittelrückverfolgbarkeit",
+    "short_description": "Event-Sourcing-System für vollständige Rückverfolgbarkeit in der Lebensmittelkette - vom Bauernhof zum Verbraucher",
+    "long_description": "Eine robuste Plattform zur Lebensmittelrückverfolgbarkeit basierend auf Event-Sourcing, die eine Vorwärts- und Rückwärtsverfolgung von Chargen durch die gesamte Lieferkette ermöglicht. Unterstützt HACCP-Compliance, Rückrufmanagement und Audits. Geeignet für Produzenten, Verarbeiter, Logistik und Einzelhandel.",
+    "features": {
+      "event_sourcing": {
+        "title": "Event-Sourcing-Architektur",
+        "description": "Jeder Vorgang wird als unveränderliches Ereignis erfasst: Empfang, Transformation, Split/Merge, Verpackung, Versand. Vollständige und prüfbare Historie."
+      },
+      "bidirectional_trace": {
+        "title": "Bidirektionale Rückverfolgbarkeit",
+        "description": "Rückwärtsverfolgung: 'Woher kommt Charge X?'. Vorwärtsverfolgung: 'Wohin ging Charge X?'. Auswirkungsanalyse in Sekunden."
+      },
+      "multi_actor": {
+        "title": "Multi-Akteur-Unterstützung",
+        "description": "Produzenten, Verarbeiter, Logistik, Einzelhandel - alle auf derselben Plattform, mit unterschiedlichen Rollen und Berechtigungen."
+      },
+      "compliance": {
+        "title": "Compliance & Audit",
+        "description": "Vollständiges 'wer hat was, wann gemacht' Journal, angehängte Dokumente, HACCP/ISO-Berichtsexport."
+      },
+      "recall": {
+        "title": "Rückrufmanagement",
+        "description": "Vorfallsdefinition, automatische Generierung betroffener Parteienlisten, Echtzeit-Kommunikation und Bestätigungsverfolgung."
+      },
+      "integration": {
+        "title": "ERP/WMS-Integrationen",
+        "description": "REST/GraphQL API, Webhooks, EDI-Import. Kompatibel mit bestehenden Systemen."
+      }
+    },
+    "modules": [
+      "Event Ledger (Kern)",
+      "Inventory Engine (Bestand pro Charge)",
+      "Trace Graph Engine",
+      "Stammdatenverwaltung",
+      "Compliance & Audit",
+      "Rückrufmanagement",
+      "Mobile Scan-App",
+      "Analytics-Dashboard",
+      "GS1/QR-Etikettenintegration",
+      "Externe Integrations-API"
+    ],
+    "benefits": [
+      "Rückruf in Minuten, nicht Tagen",
+      "Nachgewiesene HACCP- und ISO-Compliance",
+      "Reduziertes Reputationsrisiko",
+      "Vollständige Lieferkettensichtbarkeit",
+      "Reduzierte Verluste und abgelaufene Produkte",
+      "Erhöhtes Vertrauen von Partnern und Verbrauchern"
+    ]
+  }
+}

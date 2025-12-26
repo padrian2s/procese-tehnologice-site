@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "title": "TechFlow Solutions - Digital Technological Processes",
+    "description": "Complete software solutions for digitization and traceability of technological processes across industries"
+  },
+  "nav": {
+    "home": "Home",
+    "industries": "Industries",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Digitizing Technological Processes",
+    "subtitle": "Complete software solutions for traceability, compliance, and operational efficiency",
+    "cta": "Discover Solutions",
+    "secondary_cta": "Contact Us"
+  },
+  "industries": {
+    "title": "Our Industries",
+    "subtitle": "Customized solutions for each sector",
+    "view_all": "View All Industries",
+    "learn_more": "Learn More",
+    "features": "Key Features",
+    "modules": "Included Modules",
+    "benefits": "Benefits",
+    "back_to_industries": "Back to Industries"
+  },
+  "about": {
+    "title": "About TechFlow Solutions",
+    "subtitle": "Trusted partners in digital transformation",
+    "mission_title": "Our Mission",
+    "mission": "We help businesses digitize their technological processes, providing complete traceability, standards compliance, and maximum operational efficiency.",
+    "vision_title": "Our Vision",
+    "vision": "To become the leader in traceability solutions and technological process management in Central and Eastern Europe.",
+    "values_title": "Our Values",
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "We adopt cutting-edge technologies to deliver state-of-the-art solutions",
+        "long_description": "Innovation is the engine that propels us forward. We don't settle for standard solutions - we constantly seek new and better ways to solve our clients' problems.",
+        "points": [
+          "Continuous research of emerging technologies",
+          "Rapid implementation of modern solutions",
+          "Organizational culture oriented towards experimentation",
+          "Partnerships with tech industry leaders"
+        ],
+        "approach": "Our approach combines the latest technologies with agile methodologies, allowing us to deliver innovative solutions in record time."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "We build robust systems you can depend on",
+        "long_description": "Reliability is not optional in critical technological processes. We build systems that work 24/7, with redundancy and automatic recovery mechanisms.",
+        "points": [
+          "Redundant and fault-tolerant architecture",
+          "Proactive monitoring and real-time alerting",
+          "Automatic backup and rapid recovery",
+          "Clear SLAs with 99.9% uptime guarantees"
+        ],
+        "approach": "Every system we build goes through rigorous stress tests and failover scenarios before launch."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We work alongside our clients for their success",
+        "long_description": "We're not just software vendors - we're partners in digital transformation. Our clients' success is our success.",
+        "points": [
+          "Deep understanding of business needs",
+          "Transparent and regular communication",
+          "Flexibility in adapting to new requirements",
+          "Dedicated long-term support"
+        ],
+        "approach": "We build relationships based on trust and collaboration, providing proactive consulting for continuous process optimization."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "We never compromise on quality",
+        "long_description": "Quality is embedded in everything we do - from the first line of code to post-implementation support.",
+        "points": [
+          "Mandatory code review for every change",
+          "Automated testing with extensive coverage",
+          "Rigorous documentation standards",
+          "Regular security and performance audits"
+        ],
+        "approach": "We apply industry best practices and constantly improve our processes to deliver excellence."
+      }
+    },
+    "learn_more": "Learn More"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "industry": "Industry",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Error sending. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "avr.nrf@gmail.com",
+      "phone": "+40 721 910 503",
+      "address": "Bucharest, Romania"
+    }
+  },
+  "footer": {
+    "description": "Software solutions for digitizing technological processes",
+    "quick_links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "copyright": "© 2024 TechFlow Solutions. All rights reserved."
+  },
+  "cta": {
+    "get_started": "Get Started",
+    "request_demo": "Request Demo",
+    "contact_sales": "Contact Sales"
+  },
+  "apicultura": {
+    "name": "Beekeeping",
+    "short_description": "Complete management and traceability system for beekeeping businesses - from hive to jar",
+    "long_description": "An end-to-end IT solution for the beekeeping industry covering the entire production chain: field data collection, complete lot traceability, quality control, standards compliance, and e-commerce integration. Whether you have a small apiary or a large operation with thousands of hives, our system adapts to your needs.",
+    "features": {
+      "field_data": {
+        "title": "Field Data Acquisition",
+        "description": "Offline-first mobile app for recording inspections, treatments, feedings, and incidents. Support for IoT sensors (scales, temperature, humidity)."
+      },
+      "traceability": {
+        "title": "Complete Traceability",
+        "description": "Tracking from hive to jar: harvest lot → extraction → maturation → packaging. QR labeling for public verification."
+      },
+      "quality": {
+        "title": "Quality Control & Compliance",
+        "description": "QC plan with analyses (moisture, HMF, diastase), treatment registry, automatic blocks for non-compliance."
+      },
+      "planning": {
+        "title": "Production Planning",
+        "description": "Operational calendar based on IoT data and weather, resource allocation, cost tracking per operation."
+      },
+      "inventory": {
+        "title": "Inventory Management",
+        "description": "Real-time stock for consumables and finished products, automatic FIFO/FEFO, expiration alerts."
+      },
+      "sales": {
+        "title": "B2C & B2B Sales",
+        "description": "E-commerce integration (Shopify/WooCommerce), complete order flow, CRM for recurring customers."
+      }
+    },
+    "modules": [
+      "Mobile app for beekeepers",
+      "Web administration portal",
+      "IoT module for sensors",
+      "Lotization and traceability system",
+      "Quality control and compliance",
+      "Planning and calendar",
+      "Inventory and warehouse management",
+      "E-commerce integration",
+      "Reports and analytics",
+      "Document export (PDF, Excel)"
+    ],
+    "benefits": [
+      "Reduced losses through real-time monitoring",
+      "100% compliance for export and inspections",
+      "Complete traceability for every jar sold",
+      "Data-driven decisions",
+      "Automation of repetitive processes",
+      "Increased customer trust through transparency"
+    ]
+  },
+  "food_traceability": {
+    "name": "Food Traceability",
+    "short_description": "Event-sourcing system for complete food supply chain traceability - from farm to consumer",
+    "long_description": "A robust food traceability platform based on event-sourcing, enabling forward and backward tracking of lots throughout the entire supply chain. Supports HACCP compliance, recall management, and audits. Suitable for producers, processors, logistics, and retail.",
+    "features": {
+      "event_sourcing": {
+        "title": "Event-Sourcing Architecture",
+        "description": "Every operation is recorded as an immutable event: reception, transformation, split/merge, packaging, shipping. Complete and auditable history."
+      },
+      "bidirectional_trace": {
+        "title": "Bidirectional Traceability",
+        "description": "Backward trace: 'Where does lot X come from?'. Forward trace: 'Where did lot X go?'. Impact analysis in seconds."
+      },
+      "multi_actor": {
+        "title": "Multi-Actor Support",
+        "description": "Producers, processors, logistics, retail - all on the same platform, with distinct roles and permissions."
+      },
+      "compliance": {
+        "title": "Compliance & Audit",
+        "description": "Complete 'who did what, when' journal, attached documents, HACCP/ISO report export."
+      },
+      "recall": {
+        "title": "Recall Management",
+        "description": "Incident definition, automatic affected party list generation, real-time communications and confirmation tracking."
+      },
+      "integration": {
+        "title": "ERP/WMS Integrations",
+        "description": "REST/GraphQL API, Webhooks, EDI import. Compatible with existing systems."
+      }
+    },
+    "modules": [
+      "Event Ledger (core)",
+      "Inventory Engine (stock per lot)",
+      "Trace Graph Engine",
+      "Master Data Management",
+      "Compliance & Audit",
+      "Recall Management",
+      "Mobile scanning app",
+      "Analytics Dashboard",
+      "GS1/QR label integration",
+      "External integration API"
+    ],
+    "benefits": [
+      "Recall in minutes, not days",
+      "Proven HACCP and ISO compliance",
+      "Reduced reputation risk",
+      "Complete supply chain visibility",
+      "Reduced losses and expired products",
+      "Increased trust from partners and consumers"
+    ]
+  }
+}
