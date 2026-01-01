@@ -15,6 +15,9 @@ export interface IndustryConfig {
     gradient: string;
   };
   features: string[];
+  featureIcons?: Record<string, string>;
+  screenshots?: string[];
+  heroPattern?: string;
 }
 
 export const industries: IndustryConfig[] = [
@@ -30,6 +33,22 @@ export const industries: IndustryConfig[] = [
       gradient: 'from-amber-500 to-yellow-500',
     },
     features: ['field_data', 'traceability', 'quality', 'planning', 'inventory', 'sales'],
+    featureIcons: {
+      field_data: 'hive',
+      traceability: 'qr_code_scanner',
+      quality: 'verified',
+      planning: 'calendar_month',
+      inventory: 'inventory_2',
+      sales: 'point_of_sale',
+    },
+    screenshots: [
+      '/img/apicultura/api_logo.png',
+      '/img/apicultura/apicultura_1.png',
+      '/img/apicultura/apicultura_2.png',
+      '/img/apicultura/apicultura_3.png',
+      '/img/apicultura/apicultura_4.png',
+    ],
+    heroPattern: 'honeycomb',
   },
   {
     id: 'food_traceability',
