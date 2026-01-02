@@ -120,53 +120,68 @@
   },
   "apicultura": {
     "name": "Apicultură",
-    "short_description": "Sistem complet de management și trasabilitate pentru afaceri apicole - de la stup la borcan",
-    "long_description": "O soluție IT end-to-end pentru industria apicolă care acoperă întregul lanț de producție: colectarea datelor din teren, trasabilitate completă pe loturi, control calitate, conformitate cu standardele și integrare e-commerce. Fie că aveți o stupină mică sau o operațiune mare cu mii de stupi, sistemul nostru se adaptează nevoilor dumneavoastră.",
+    "short_description": "BeeTracker - Sistem de management și trasabilitate completă pentru producătorii de miere, de la stup până la consumatorul final",
+    "long_description": "BeeTracker este o aplicație de management și trasabilitate completă pentru producătorii de miere. Ajută apicultorii să urmărească mierea de la stup până la consumatorul final, asigurând transparență și conformitate cu cerințele de calitate. Transformă o stupină tradițională într-o operațiune modernă și transparentă.",
     "features": {
-      "field_data": {
-        "title": "Achiziție Date din Teren",
-        "description": "Aplicație mobilă offline-first pentru înregistrarea inspecțiilor, tratamentelor, hrănirilor și incidentelor. Suport pentru senzori IoT (cântare, temperatură, umiditate)."
+      "harvest_workflow": {
+        "title": "Workflow Complet de Producție",
+        "description": "Flux ghidat pas cu pas: Recoltare → Extracție → Filtrare → Decantare → Omogenizare (opțional) → Ambalare → Depozitare → Expediere. La fiecare etapă se pot adăuga observații și documente."
       },
-      "traceability": {
-        "title": "Trasabilitate Completă",
-        "description": "Urmărire de la stup la borcan: lot recoltare → extracție → maturare → ambalare. Etichetare cu QR pentru verificare publică."
+      "lot_operations": {
+        "title": "Operațiuni Avansate pe Loturi",
+        "description": "Mixare loturi compatibile, împărțire loturi mari în loturi mai mici, trasabilitate completă părinte-copil. Fiecare lot păstrează referința la lotul original."
+      },
+      "packaging": {
+        "title": "Ambalare Inteligentă",
+        "description": "Definire mărimi borcane (275ml, 400ml, 950ml etc.), sesiuni de ambalare cu numărare automată, generare coduri seriale unice și etichete printabile cu cod QR."
       },
       "quality": {
-        "title": "Control Calitate & Conformitate",
-        "description": "Plan QC cu analize (umiditate, HMF, diastază), registru tratamente, blocări automate pentru neconformități."
+        "title": "Control Calitate & Analize",
+        "description": "Înregistrare analize de laborator (umiditate, HMF, diastază), validare calitate înainte de expediere, blocări automate pentru neconformități."
       },
-      "planning": {
-        "title": "Planificare Producție",
-        "description": "Calendar operațional bazat pe date IoT și meteo, alocare resurse, tracking costuri pe operațiune."
+      "warehouse": {
+        "title": "Gestiune Depozit (WMS)",
+        "description": "Depozite cu capacitate definită, zone și poziții specifice (raft, loc), tracking încărcare și disponibilitate, mutări între poziții cu istoric complet."
       },
-      "inventory": {
-        "title": "Gestiune Stocuri",
-        "description": "Stoc real-time pentru consumabile și produse finite, FIFO/FEFO automat, alerte expirare."
+      "iot_monitoring": {
+        "title": "Monitorizare IoT Stupi",
+        "description": "Senzori HiveSense (temperatură, umiditate), BeeCounter (numărător albine), BeeAir (calitate aer). Detectare probleme, monitorizare activitate și alerte în timp real via MQTT."
+      }
+    },
+    "consumer_traceability": {
+      "title": "Trasabilitate pentru Consumatori",
+      "qr_scan": {
+        "title": "Scanare Cod QR",
+        "description": "Consumatorul scanează QR-ul de pe borcan și vede: originea mierii, tipul, data recoltării, traseul complet de procesare și analizele de calitate."
       },
-      "sales": {
-        "title": "Vânzări B2C & B2B",
-        "description": "Integrare e-commerce (Shopify/WooCommerce), flux comandă complet, CRM pentru clienți recurenți."
+      "geolocation": {
+        "title": "Geolocalizare Scanări",
+        "description": "Hartă a distribuției produselor bazată pe locațiile de unde se scanează codurile (colectare anonimă)."
       }
     },
     "modules": [
       "Aplicație mobilă pentru apicultor",
       "Portal web de administrare",
-      "Modul IoT pentru senzori",
-      "Sistem de lotizare și trasabilitate",
-      "Control calitate și conformitate",
-      "Planificare și calendar",
-      "Gestiune stocuri și depozit",
-      "Integrare e-commerce",
-      "Rapoarte și analytics",
-      "Export documente (PDF, Excel)"
+      "Modul IoT pentru senzori (HiveSense, BeeCounter, BeeAir)",
+      "Sistem de lotizare cu workflow în etape",
+      "Modul mixare și împărțire loturi",
+      "Ambalare cu coduri seriale și QR",
+      "Control calitate și analize laborator",
+      "Warehouse Management (depozite, zone, poziții)",
+      "Gestiune clienți și expedieri",
+      "Trasabilitate publică pentru consumatori",
+      "Dashboard analitic și rapoarte",
+      "Export CSV pentru contacte și locații"
     ],
     "benefits": [
-      "Reducerea pierderilor prin monitorizare în timp real",
-      "Conformitate 100% pentru export și inspecții",
-      "Trasabilitate completă pentru fiecare borcan vândut",
-      "Decizii bazate pe date concrete",
-      "Automatizarea proceselor repetitive",
-      "Creșterea încrederii clienților prin transparență"
+      "Trasabilitate 100% - de la floare la borcan",
+      "Workflow ghidat pas cu pas pentru digitalizarea proceselor",
+      "Încredere sporită a consumatorilor prin QR și analize vizibile",
+      "Monitorizare IoT - stupi conectați în timp real",
+      "Gestiune profesională - stocuri, clienți, expedieri",
+      "Detectare rapidă a problemelor prin alerte automate",
+      "Conformitate pentru export și inspecții",
+      "Hartă distribuție produse prin geolocalizare scanări"
     ]
   },
   "food_traceability": {

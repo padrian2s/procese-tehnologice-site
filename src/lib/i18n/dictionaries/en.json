@@ -120,53 +120,68 @@
   },
   "apicultura": {
     "name": "Beekeeping",
-    "short_description": "Complete management and traceability system for beekeeping businesses - from hive to jar",
-    "long_description": "An end-to-end IT solution for the beekeeping industry covering the entire production chain: field data collection, complete lot traceability, quality control, standards compliance, and e-commerce integration. Whether you have a small apiary or a large operation with thousands of hives, our system adapts to your needs.",
+    "short_description": "BeeTracker - Complete management and traceability system for honey producers, from hive to end consumer",
+    "long_description": "BeeTracker is a complete management and traceability application for honey producers. It helps beekeepers track honey from hive to end consumer, ensuring transparency and compliance with quality requirements. Transform a traditional apiary into a modern and transparent operation.",
     "features": {
-      "field_data": {
-        "title": "Field Data Acquisition",
-        "description": "Offline-first mobile app for recording inspections, treatments, feedings, and incidents. Support for IoT sensors (scales, temperature, humidity)."
+      "harvest_workflow": {
+        "title": "Complete Production Workflow",
+        "description": "Step-by-step guided flow: Harvest → Extraction → Filtering → Decanting → Homogenization (optional) → Packaging → Storage → Shipping. Notes and documents can be added at each stage."
       },
-      "traceability": {
-        "title": "Complete Traceability",
-        "description": "Tracking from hive to jar: harvest lot → extraction → maturation → packaging. QR labeling for public verification."
+      "lot_operations": {
+        "title": "Advanced Lot Operations",
+        "description": "Mix compatible lots, split large lots into smaller ones, complete parent-child traceability. Each lot maintains reference to the original lot."
+      },
+      "packaging": {
+        "title": "Smart Packaging",
+        "description": "Define jar sizes (275ml, 400ml, 950ml etc.), packaging sessions with automatic counting, unique serial code generation and printable QR labels."
       },
       "quality": {
-        "title": "Quality Control & Compliance",
-        "description": "QC plan with analyses (moisture, HMF, diastase), treatment registry, automatic blocks for non-compliance."
+        "title": "Quality Control & Analysis",
+        "description": "Record laboratory analyses (moisture, HMF, diastase), quality validation before shipping, automatic blocks for non-compliance."
       },
-      "planning": {
-        "title": "Production Planning",
-        "description": "Operational calendar based on IoT data and weather, resource allocation, cost tracking per operation."
+      "warehouse": {
+        "title": "Warehouse Management (WMS)",
+        "description": "Warehouses with defined capacity, specific zones and positions (shelf, location), load and availability tracking, movements between positions with complete history."
       },
-      "inventory": {
-        "title": "Inventory Management",
-        "description": "Real-time stock for consumables and finished products, automatic FIFO/FEFO, expiration alerts."
+      "iot_monitoring": {
+        "title": "IoT Hive Monitoring",
+        "description": "HiveSense sensors (temperature, humidity), BeeCounter (bee counter), BeeAir (air quality). Problem detection, activity monitoring and real-time alerts via MQTT."
+      }
+    },
+    "consumer_traceability": {
+      "title": "Consumer Traceability",
+      "qr_scan": {
+        "title": "QR Code Scanning",
+        "description": "Consumer scans the QR on the jar and sees: honey origin, type, harvest date, complete processing path and quality analyses."
       },
-      "sales": {
-        "title": "B2C & B2B Sales",
-        "description": "E-commerce integration (Shopify/WooCommerce), complete order flow, CRM for recurring customers."
+      "geolocation": {
+        "title": "Scan Geolocation",
+        "description": "Product distribution map based on locations where codes are scanned (anonymous collection)."
       }
     },
     "modules": [
       "Mobile app for beekeepers",
       "Web administration portal",
-      "IoT module for sensors",
-      "Lotization and traceability system",
-      "Quality control and compliance",
-      "Planning and calendar",
-      "Inventory and warehouse management",
-      "E-commerce integration",
-      "Reports and analytics",
-      "Document export (PDF, Excel)"
+      "IoT module for sensors (HiveSense, BeeCounter, BeeAir)",
+      "Lot system with step-by-step workflow",
+      "Lot mixing and splitting module",
+      "Packaging with serial codes and QR",
+      "Quality control and lab analyses",
+      "Warehouse Management (warehouses, zones, positions)",
+      "Customer and shipping management",
+      "Public traceability for consumers",
+      "Analytics dashboard and reports",
+      "CSV export for contacts and locations"
     ],
     "benefits": [
-      "Reduced losses through real-time monitoring",
-      "100% compliance for export and inspections",
-      "Complete traceability for every jar sold",
-      "Data-driven decisions",
-      "Automation of repetitive processes",
-      "Increased customer trust through transparency"
+      "100% traceability - from flower to jar",
+      "Step-by-step guided workflow for process digitization",
+      "Increased consumer trust through QR and visible analyses",
+      "IoT monitoring - connected hives in real-time",
+      "Professional management - inventory, customers, shipments",
+      "Rapid problem detection through automatic alerts",
+      "Compliance for export and inspections",
+      "Product distribution map through scan geolocation"
     ]
   },
   "food_traceability": {

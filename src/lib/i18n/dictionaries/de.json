@@ -120,53 +120,68 @@
   },
   "apicultura": {
     "name": "Imkerei",
-    "short_description": "Komplettes Management- und Rückverfolgbarkeitssystem für Imkereibetriebe - vom Bienenstock zum Glas",
-    "long_description": "Eine End-to-End IT-Lösung für die Imkereiindustrie, die die gesamte Produktionskette abdeckt: Felddatenerfassung, vollständige Chargenrückverfolgbarkeit, Qualitätskontrolle, Standardkonformität und E-Commerce-Integration. Ob Sie eine kleine Imkerei oder einen großen Betrieb mit Tausenden von Bienenstöcken haben, unser System passt sich Ihren Bedürfnissen an.",
+    "short_description": "BeeTracker - Komplettes Management- und Rückverfolgbarkeitssystem für Honigproduzenten, vom Bienenstock bis zum Endverbraucher",
+    "long_description": "BeeTracker ist eine komplette Management- und Rückverfolgbarkeitsanwendung für Honigproduzenten. Sie hilft Imkern, Honig vom Bienenstock bis zum Endverbraucher zu verfolgen und gewährleistet Transparenz und Einhaltung der Qualitätsanforderungen. Verwandeln Sie eine traditionelle Imkerei in einen modernen und transparenten Betrieb.",
     "features": {
-      "field_data": {
-        "title": "Felddatenerfassung",
-        "description": "Offline-first Mobile-App zur Erfassung von Inspektionen, Behandlungen, Fütterungen und Vorfällen. Unterstützung für IoT-Sensoren (Waagen, Temperatur, Feuchtigkeit)."
+      "harvest_workflow": {
+        "title": "Kompletter Produktions-Workflow",
+        "description": "Schritt-für-Schritt geführter Ablauf: Ernte → Extraktion → Filterung → Dekantierung → Homogenisierung (optional) → Verpackung → Lagerung → Versand. Bei jedem Schritt können Notizen und Dokumente hinzugefügt werden."
       },
-      "traceability": {
-        "title": "Vollständige Rückverfolgbarkeit",
-        "description": "Verfolgung vom Bienenstock zum Glas: Erntecharge → Extraktion → Reifung → Verpackung. QR-Etikettierung zur öffentlichen Verifizierung."
+      "lot_operations": {
+        "title": "Erweiterte Chargenoperationen",
+        "description": "Kompatible Chargen mischen, große Chargen in kleinere aufteilen, vollständige Eltern-Kind-Rückverfolgbarkeit. Jede Charge behält die Referenz zur Originalcharge."
+      },
+      "packaging": {
+        "title": "Intelligente Verpackung",
+        "description": "Glasgrößen definieren (275ml, 400ml, 950ml etc.), Verpackungssitzungen mit automatischer Zählung, eindeutige Seriencode-Generierung und druckbare QR-Etiketten."
       },
       "quality": {
-        "title": "Qualitätskontrolle & Compliance",
-        "description": "QK-Plan mit Analysen (Feuchtigkeit, HMF, Diastase), Behandlungsregister, automatische Sperren bei Nichtkonformität."
+        "title": "Qualitätskontrolle & Analysen",
+        "description": "Laboranalysen erfassen (Feuchtigkeit, HMF, Diastase), Qualitätsvalidierung vor dem Versand, automatische Sperren bei Nichtkonformität."
       },
-      "planning": {
-        "title": "Produktionsplanung",
-        "description": "Betriebskalender basierend auf IoT-Daten und Wetter, Ressourcenzuweisung, Kostenverfolgung pro Vorgang."
+      "warehouse": {
+        "title": "Lagerverwaltung (WMS)",
+        "description": "Lager mit definierter Kapazität, spezifische Zonen und Positionen (Regal, Standort), Belade- und Verfügbarkeitsverfolgung, Bewegungen zwischen Positionen mit vollständiger Historie."
       },
-      "inventory": {
-        "title": "Bestandsverwaltung",
-        "description": "Echtzeit-Bestand für Verbrauchsmaterialien und Fertigprodukte, automatisches FIFO/FEFO, Ablaufwarnungen."
+      "iot_monitoring": {
+        "title": "IoT-Bienenstock-Überwachung",
+        "description": "HiveSense-Sensoren (Temperatur, Feuchtigkeit), BeeCounter (Bienenzähler), BeeAir (Luftqualität). Problemerkennung, Aktivitätsüberwachung und Echtzeit-Warnungen via MQTT."
+      }
+    },
+    "consumer_traceability": {
+      "title": "Verbraucher-Rückverfolgbarkeit",
+      "qr_scan": {
+        "title": "QR-Code-Scannen",
+        "description": "Der Verbraucher scannt den QR auf dem Glas und sieht: Honigherkunft, Typ, Erntedatum, kompletten Verarbeitungsweg und Qualitätsanalysen."
       },
-      "sales": {
-        "title": "B2C & B2B Verkauf",
-        "description": "E-Commerce-Integration (Shopify/WooCommerce), vollständiger Bestellablauf, CRM für wiederkehrende Kunden."
+      "geolocation": {
+        "title": "Scan-Geolokalisierung",
+        "description": "Produktverteilungskarte basierend auf Standorten, an denen Codes gescannt werden (anonyme Erfassung)."
       }
     },
     "modules": [
       "Mobile App für Imker",
       "Web-Administrationsportal",
-      "IoT-Modul für Sensoren",
-      "Chargen- und Rückverfolgbarkeitssystem",
-      "Qualitätskontrolle und Compliance",
-      "Planung und Kalender",
-      "Lager- und Bestandsverwaltung",
-      "E-Commerce-Integration",
-      "Berichte und Analysen",
-      "Dokumentenexport (PDF, Excel)"
+      "IoT-Modul für Sensoren (HiveSense, BeeCounter, BeeAir)",
+      "Chargensystem mit Schritt-für-Schritt-Workflow",
+      "Modul zum Mischen und Aufteilen von Chargen",
+      "Verpackung mit Seriennummern und QR",
+      "Qualitätskontrolle und Laboranalysen",
+      "Lagerverwaltung (Lager, Zonen, Positionen)",
+      "Kunden- und Versandverwaltung",
+      "Öffentliche Rückverfolgbarkeit für Verbraucher",
+      "Analytics-Dashboard und Berichte",
+      "CSV-Export für Kontakte und Standorte"
     ],
     "benefits": [
-      "Reduzierte Verluste durch Echtzeitüberwachung",
-      "100% Compliance für Export und Inspektionen",
-      "Vollständige Rückverfolgbarkeit für jedes verkaufte Glas",
-      "Datengesteuerte Entscheidungen",
-      "Automatisierung repetitiver Prozesse",
-      "Erhöhtes Kundenvertrauen durch Transparenz"
+      "100% Rückverfolgbarkeit - von der Blume zum Glas",
+      "Schritt-für-Schritt geführter Workflow zur Prozessdigitalisierung",
+      "Erhöhtes Verbrauchervertrauen durch QR und sichtbare Analysen",
+      "IoT-Überwachung - verbundene Bienenstöcke in Echtzeit",
+      "Professionelles Management - Lagerbestand, Kunden, Lieferungen",
+      "Schnelle Problemerkennung durch automatische Warnungen",
+      "Compliance für Export und Inspektionen",
+      "Produktverteilungskarte durch Scan-Geolokalisierung"
     ]
   },
   "food_traceability": {
