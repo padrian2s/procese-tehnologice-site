@@ -34,8 +34,29 @@ export function ContactForm({ locale, labels, industryOptions }: ContactFormProp
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus('success');
-    setFormState({ name: '', email: '', company: '', industry: '', message: '' });
+
+    const selectedIndustry = industryOptions.find(ind => ind.id === formState.industry);
+    const industryName = selectedIndustry
+      ? `${selectedIndustry.icon} ${selectedIndustry.name}`
+      : formState.industry === 'other'
+        ? (locale === 'ro' ? 'Altă industrie' : locale === 'de' ? 'Andere Branche' : 'Other industry')
+        : '-';
+
+    const subject = encodeURIComponent(
+      locale === 'ro' ? `Contact de la ${formState.name} - ${formState.company || 'Persoană fizică'}` :
+      locale === 'de' ? `Kontakt von ${formState.name} - ${formState.company || 'Privatperson'}` :
+      `Contact from ${formState.name} - ${formState.company || 'Individual'}`
+    );
+
+    const body = encodeURIComponent(
+      `${locale === 'ro' ? 'Nume' : locale === 'de' ? 'Name' : 'Name'}: ${formState.name}\n` +
+      `Email: ${formState.email}\n` +
+      `${locale === 'ro' ? 'Companie' : locale === 'de' ? 'Unternehmen' : 'Company'}: ${formState.company || '-'}\n` +
+      `${locale === 'ro' ? 'Industrie' : locale === 'de' ? 'Branche' : 'Industry'}: ${industryName}\n\n` +
+      `${locale === 'ro' ? 'Mesaj' : locale === 'de' ? 'Nachricht' : 'Message'}:\n${formState.message}`
+    );
+
+    window.location.href = `mailto:avr.nrf@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (
