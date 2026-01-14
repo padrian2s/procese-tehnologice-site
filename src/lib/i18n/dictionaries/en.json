@@ -23,7 +23,14 @@
     "features": "Key Features",
     "modules": "Included Modules",
     "benefits": "Benefits",
-    "back_to_industries": "Back to Industries"
+    "back_to_industries": "Back to Industries",
+    "demo": {
+      "title": "Live Demo",
+      "description": "Test our system in a real environment",
+      "access_demo": "Access Demo",
+      "username": "Username",
+      "password": "Password"
+    }
   },
   "about": {
     "title": "About TechFlow Solutions",

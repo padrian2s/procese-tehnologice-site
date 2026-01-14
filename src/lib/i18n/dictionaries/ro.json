@@ -23,7 +23,14 @@
     "features": "Caracteristici Principale",
     "modules": "Module Incluse",
     "benefits": "Beneficii",
-    "back_to_industries": "Înapoi la Industrii"
+    "back_to_industries": "Înapoi la Industrii",
+    "demo": {
+      "title": "Demo Live",
+      "description": "Testează sistemul nostru într-un mediu real",
+      "access_demo": "Accesează Demo",
+      "username": "Utilizator",
+      "password": "Parolă"
+    }
   },
   "about": {
     "title": "Despre TechFlow Solutions",

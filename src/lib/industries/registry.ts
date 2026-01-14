@@ -18,6 +18,11 @@ export interface IndustryConfig {
   featureIcons?: Record<string, string>;
   screenshots?: string[];
   heroPattern?: string;
+  demo?: {
+    url: string;
+    username: string;
+    password: string;
+  };
 }
 
 export const industries: IndustryConfig[] = [
@@ -49,6 +54,11 @@ export const industries: IndustryConfig[] = [
       '/img/apicultura/apicultura_4.png',
     ],
     heroPattern: 'honeycomb',
+    demo: {
+      url: 'https://www.top-hives.com',
+      username: 'admin',
+      password: 'admin',
+    },
   },
   {
     id: 'food_traceability',

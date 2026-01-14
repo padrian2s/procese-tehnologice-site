@@ -137,6 +137,50 @@ export default async function IndustryPage({
         </div>
       </section>
 
+      {/* Demo Card - only show if industry has demo */}
+      {industry.demo && (
+        <section className="py-8 bg-gradient-to-r from-amber-50 to-yellow-50 dark:from-amber-950/30 dark:to-yellow-950/30 border-b border-amber-200 dark:border-amber-800">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 sm:p-8 flex flex-col sm:flex-row items-center gap-6">
+              <div className="flex-shrink-0">
+                <div className={`w-16 h-16 bg-gradient-to-br ${industry.color.gradient} rounded-xl flex items-center justify-center`}>
+                  <span className="material-icons text-white text-3xl">play_circle</span>
+                </div>
+              </div>
+              <div className="flex-grow text-center sm:text-left">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-1">
+                  {dict.industries.demo.title}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 mb-3">
+                  {dict.industries.demo.description}
+                </p>
+                <div className="flex flex-wrap gap-4 justify-center sm:justify-start text-sm">
+                  <div className="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-lg">
+                    <span className="text-gray-500 dark:text-gray-400">{dict.industries.demo.username}:</span>{' '}
+                    <span className="font-mono font-semibold text-gray-900 dark:text-white">{industry.demo.username}</span>
+                  </div>
+                  <div className="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-lg">
+                    <span className="text-gray-500 dark:text-gray-400">{dict.industries.demo.password}:</span>{' '}
+                    <span className="font-mono font-semibold text-gray-900 dark:text-white">{industry.demo.password}</span>
+                  </div>
+                </div>
+              </div>
+              <div className="flex-shrink-0">
+                <a
+                  href={industry.demo.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${industry.color.gradient} text-white font-semibold rounded-lg hover:opacity-90 transition-opacity`}
+                >
+                  {dict.industries.demo.access_demo}
+                  <span className="material-icons text-lg">open_in_new</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Features Section - Card Grid */}
       <section className="py-20 sm:py-28 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

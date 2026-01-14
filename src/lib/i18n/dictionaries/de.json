@@ -23,7 +23,14 @@
     "features": "Hauptmerkmale",
     "modules": "Enthaltene Module",
     "benefits": "Vorteile",
-    "back_to_industries": "Zurück zu Branchen"
+    "back_to_industries": "Zurück zu Branchen",
+    "demo": {
+      "title": "Live-Demo",
+      "description": "Testen Sie unser System in einer realen Umgebung",
+      "access_demo": "Demo Zugreifen",
+      "username": "Benutzername",
+      "password": "Passwort"
+    }
   },
   "about": {
     "title": "Über TechFlow Solutions",
