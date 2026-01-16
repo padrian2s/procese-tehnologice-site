@@ -55,7 +55,7 @@ export const industries: IndustryConfig[] = [
     ],
     heroPattern: 'honeycomb',
     demo: {
-      url: 'https://www.top-hives.com',
+      url: 'https://top-hives.com/',
       username: 'admin',
       password: 'admin',
     },
